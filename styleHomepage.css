@@ -1,4 +1,35 @@
-div {
-  text-align: center;
-  font-size: 30
+.topMenu {
+overflow: hidden;
+font-size: 30px;
+background-color: #4C86B4;
+}
+
+.topMenu a {
+
+}
+
+.topMenu a.active {
+  background-color: #4CAF50;
+}
+
+.topMenu a:hover {
+color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+padding: 30px, 10px;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto Slab', serif;
+}
+
+.sidebar {
+  background-color: #E7EEF6;
+  position: fixed;
+  top: 10em;
+  left: 0;
 }
