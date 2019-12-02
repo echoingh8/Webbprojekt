@@ -1,15 +1,16 @@
 .topMenu {
 overflow: hidden;
-font-size: 30px;
+font-size: 40px;
 background-color: #4C86B4;
+width: 100%;
 }
 
 .topMenu a {
-
+margin-left: 20%;
 }
 
 .topMenu a.active {
-  background-color: #4CAF50;
+  background-color: #4C86B4;
 }
 
 .topMenu a:hover {
@@ -25,6 +26,7 @@ padding: 30px, 10px;
 body {
   margin: 0;
   font-family: 'Roboto Slab', serif;
+  background-image: url("bakgrund.png");
 }
 
 .sidebar {
@@ -32,4 +34,9 @@ body {
   position: fixed;
   top: 10em;
   left: 0;
+}
+
+#bars {
+  position: fixed;
+  right: 5px;
 }
