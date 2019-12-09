@@ -45,10 +45,26 @@ body {
 }
 
 .mainText {
-  height: 20px;
+  height: inherit;
   width: 1000px;
   text-align: center;
   border-style: solid;
   border-width: 5px;
+  background-color: #ADCBE3;
+}
+
+#homeBtn{
+  position: fixed;
+}
+
+.infoBtn{
+  position: fixed;
+}
+
+.listBtn{
+  position: fixed;
+}
+
+.backBild{
 
 }
